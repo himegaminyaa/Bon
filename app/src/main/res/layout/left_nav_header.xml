@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/hl_drawer_header_height"
+    android:padding="@dimen/hl_drawer_header_padding"
+    android:background="@color/bon_app_secondary"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/mUserProfile"
+        style="@style/Himegami.Drawer.Profile"
+        android:src="@drawable/ic_hl_account"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mUsername"
+        style="@style/Himegami.Drawer.Text.User.Name"
+        android:text="@string/drawer_user_name"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mUserEmail"
+        style="@style/Himegami.Drawer.Text.User"
+        android:text="@string/drawer_user_email"/>
+
+
+</LinearLayout>

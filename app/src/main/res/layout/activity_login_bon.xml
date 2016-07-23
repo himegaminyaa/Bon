@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bon_background"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:weightSum="10">
+
+    <LinearLayout
+        style="@style/Himegami.Login.Panel"
+        android:layout_weight="4"
+        android:paddingBottom="12dp"
+        android:gravity="bottom">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/bon_app_secondary"
+            android:textSize="100sp"
+            android:text="Bon"
+            fontPath="fonts/lily_script_reg.ttf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Himegami.Login.Panel"
+        android:layout_marginBottom="@dimen/hl_login_margin_item"
+        android:layout_weight="1">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/mUsernameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/mUsername"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/label_login_email"
+                android:inputType="textNoSuggestions"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Himegami.Login.Panel"
+        android:layout_marginBottom="@dimen/hl_login_margin_item"
+        android:layout_weight="1">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/mPasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/mPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/label_login_password"
+                android:inputType="textPassword"
+                android:maxLength="24"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Himegami.Login.Panel"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hl_login_margin_top_button"
+            app:cardCornerRadius="4dp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/mLogin"
+                style="@style/Himegami.Login.Button"
+                android:text="@string/label_login_sign_in"/>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/hl_login_margin_top_button"
+            android:gravity="center_vertical"
+            android:weightSum="2">
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/mLoginWithFb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <View
+                style="@style/Bon.Login.Divider"
+                android:backgroundTint="#AAFFFFFF"/>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/mRegisterC"
+                style="@style/Bon.Login.Button.Register"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/Bon.Text.Login.Register"
+                    android:text="@string/label_login_register"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Himegami.Login.Panel"
+        android:layout_weight="2"
+        android:gravity="center">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/mScan"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:foreground="@drawable/bon_card_ripple_foreground"
+            android:background="@drawable/ic_bon_scan_48dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

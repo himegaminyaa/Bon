@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/mNavHome"
+            android:title="@string/menu_home"/>
+
+        <item
+            android:id="@+id/mNavWallet"
+            android:title="@string/menu_wallet"/>
+
+        <item
+            android:id="@+id/mNavProfile"
+            android:title="@string/menu_profile"/>
+
+        <item
+            android:id="@+id/mNavSettings"
+            android:title="@string/menu_settings"/>
+
+    </group>
+
+    <group
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/mNavLogout"
+            android:title="@string/menu_logout"/>
+
+    </group>
+
+</menu>

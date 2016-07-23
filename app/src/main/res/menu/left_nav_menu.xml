@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/mNavHome"
+            android:title="@string/menu_home"/>
+
+    </group>
+
+    <group
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/mNavLogout"
+            android:title="@string/menu_logout"/>
+
+    </group>
+
+</menu>

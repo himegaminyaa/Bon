@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Bon</string>
+
+    <string name="button_ok">Ok</string>
+    <string name="button_cancel">Cancel</string>
+
+    <string name="debug_message_activity_paused">Activity has paused</string>
+    <string name="debug_message_activity_resumed">Activity has resumed</string>
+    <string name="debug_message_activity_started">Activity has started</string>
+    <string name="debug_message_activity_stopped">Activity has stopped</string>
+    <string name="debug_message_fragment_paused">Fragment has paused</string>
+    <string name="debug_message_fragment_resumed">Fragment has resumed</string>
+    <string name="debug_message_fragment_started">Fragment has started</string>
+    <string name="debug_message_fragment_stopped">Fragment has stopped</string>
+    <string name="debug_message_handle_saved_instance">Handling saved instance.</string>
+    <string name="debug_message_handled_saved_instance_is_not_null">Saved instance is not null.</string>
+    <string name="debug_message_handled_saved_instance_is_null">Saved instance is null.</string>
+    <string name="debug_message_validate_object" formatted="false">The instance of {0} of class {1} is {2}.</string>
+    <string name="debug_message_object_does_not_exist" formatted="false">Cannot find an object with names {0}.</string>
+    <string name="debug_message_web_service_call_execution">Executing service_call</string>
+    <string name="debug_message_web_service_pre_execute">Running through pre-execution of web service call</string>
+    <string name="debug_message_web_service_post_execute">Running through post-execution of web service call</string>
+    <string name="debug_message_web_service_started">Web service call has been started</string>
+    <string name="debug_message_web_service_stopped">Web service call has been stopped</string>
+
+    <string name="error_connection_refused">Connection Refused.</string>
+    <string name="error_occurred">A connection failure occurred.</string>
+    <string name="error_minimum_field">Minimum of {0} characters allowed</string>
+    <string name="error_no_internet_connection">No internet connection</string>
+    <string name="error_request_timed_out">Request timed-out.</string>
+    <string name="error_required_field">This field is required</string>
+    <string name="error_server_unavailable">Server is currently unavailable. Please try again later.</string>
+    <string name="error_session_timed_out">Session Timed-Out</string>
+    <string name="error_ssl_handshake_exception">SSL Handshake Exception</string>
+    <string name="error_this_field_is_required">This field is required</string>
+    <string name="error_unauthorized_user">Failure in authorization. You might have been logged out by another user.</string>
+
+    <string name="label_empty"> </string>
+    <string name="label_scan">Scan</string>
+    <string name="label_login_first_name">First Name</string>
+    <string name="label_login_last_name">Last Name</string>
+    <string name="label_login_username">Username</string>
+    <string name="label_login_email">Email</string>
+    <string name="label_login_password">Password</string>
+    <string name="label_login_register">Register</string>
+    <string name="label_login_sign_in">Sign In</string>
+    <string name="label_pre_log_in_info">Your device is now continually scanning for establishments partnered with BON</string>
+    <string name="label_post_log_in_info">Your device is now continually scanning for establishments partnered with BON</string>
+    <string name="label_tab_chat">Chat</string>
+    <string name="label_tab_menu">Menu</string>
+    <string name="label_tab_voucher">Voucher</string>
+    <string name="label_voucher_timer_header">This voucher is now active</string>
+    <string name="label_voucher_timer_footer">Present this to the cashier</string>
+    <string name="label_wallet_amount_due">Amount Due</string>
+    <string name="label_wallet_currency">B</string>
+    <string name="label_wallet_pay_with_bons">Pay With Bons</string>
+    <string name="label_wallet_you_have">You Have</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_wallet">Wallet</string>
+
+    <string name="os_enetunreach">ENETUNREACH</string>
+    <string name="os_econnrefused">ECONNREFUSED</string>
+    <string name="os_ehostunreach">EHOSTUNREACH</string>
+
+    <string name="message_empty_list">No items to show</string>
+
+    <string name="drawer_close">Drawer Close</string>
+    <string name="drawer_open">Drawer Open</string>
+
+    <string name="drawer_user_name">Username</string>
+    <string name="drawer_user_email">Email</string>
+
+    <string name="list_item_title">Title</string>
+    <string name="list_item_subtitle">Subtitle</string>
+    <string name="list_item_trailer_message">You have reached the end of the list</string>
+
+    <string name="tag_fragment_home">Home Fragment</string>
+    <string name="tag_fragment_merchant">Merchant Fragment</string>
+    <string name="tag_fragment_profile">Profile Fragment</string>
+    <string name="tag_fragment_voucher">Voucher Fragment</string>
+    <string name="tag_fragment_wallet">Wallet Fragment</string>
+
+    <string name="facebook_app_id">1026133374166260</string>
+
+</resources>

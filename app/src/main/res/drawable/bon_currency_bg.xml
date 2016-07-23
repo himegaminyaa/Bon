@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <size
+        android:width="@dimen/bon_fragment_wallet_currency_size"
+        android:height="@dimen/bon_fragment_wallet_currency_size"/>
+
+    <gradient
+        android:centerColor="@color/bon_app_primary"
+        android:startColor="@color/bon_app_primary"
+        android:endColor="@color/bon_app_primary"/>
+
+</shape>

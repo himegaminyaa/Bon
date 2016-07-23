@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hl_color_000">#E1F5FE</color>
+    <color name="hl_color_100">#BBDEFB</color>
+    <color name="hl_color_200">#90CAF9</color>
+    <color name="hl_color_300">#64B5F6</color>
+    <color name="hl_color_400">#42A5F5</color>
+    <color name="hl_color_500">#2196F3</color>
+    <color name="hl_color_600">#1E88E5</color>
+    <color name="hl_color_700">#1976D2</color>
+    <color name="hl_color_800">#1565C0</color>
+    <color name="hl_color_900">#0D47A1</color>
+
+    <color name="hl_color_a100">#82B1FF</color>
+    <color name="hl_color_a200">#448AFF</color>
+    <color name="hl_color_a400">#2979FF</color>
+    <color name="hl_color_a700">#2962FF</color>
+
+    <color name="hl_white">#FFFFFF</color>
+    <color name="hl_black">#000000</color>
+    <color name="hl_transparent">#00000000</color>
+
+    <color name="bon_white">@color/hl_white</color>
+    <color name="bon_black">@color/hl_black</color>
+    <color name="bon_gray">#d3d3d3</color>
+    <color name="bon_transparent">@color/hl_transparent</color>
+    <color name="bon_tint">#DD000000</color>
+
+    <color name="bon_app_primary">@color/hl_color_900</color>
+    <color name="bon_app_secondary">@color/hl_color_600</color>
+    <color name="bon_app_tertiary">@color/hl_color_300</color>
+
+    <color name="bon_app_toolbar">@color/bon_white</color>
+    <color name="bon_app_divider">@color/hl_color_a100</color>
+
+    <color name="bon_app_voucher_bundle">#CC8BC34A</color>
+    <color name="bon_app_voucher_companion">#CCE91E63</color>
+    <color name="bon_app_voucher_discount">#CC1E88E5</color>
+    <color name="bon_app_voucher_default">#CC0D47A1</color>
+    <color name="bon_app_voucher_unlimited">#CCFFC107</color>
+
+    <color name="bon_app_facebook_theme">#415DAE</color>
+
+    <color name="colorPrimary">@color/bon_app_secondary</color>
+    <color name="colorPrimaryDark">@color/bon_app_primary</color>
+    <color name="colorAccent">@color/hl_color_a100</color>
+
+    <color name="hl_color_primary">#000000</color>
+    <color name="hl_action_bar_title_color">#000000</color>
+    <color name="hl_action_bar_subtitle_color">#000000</color>
+
+
+</resources>

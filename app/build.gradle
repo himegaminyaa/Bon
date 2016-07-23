@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "labs.himegami.bon"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+    }
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+
+def AAVersion = '3.3.2'
+def SupportLibVersion = '23.2.1'
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    apt "org.androidannotations:androidannotations:$AAVersion"
+    compile "org.androidannotations:androidannotations-api:$AAVersion"
+    compile "com.android.support:appcompat-v7:$SupportLibVersion"
+    compile "com.android.support:design:$SupportLibVersion"
+    compile "com.android.support:support-v4:$SupportLibVersion"
+    compile "com.android.support:recyclerview-v7:$SupportLibVersion"
+    compile "com.android.support:cardview-v7:$SupportLibVersion"
+
+    compile 'com.github.nkzawa:socket.io-client:0.3.0'
+    compile 'com.estimote:sdk:0.10.4@aar'
+    compile 'com.timehop.stickyheadersrecyclerview:library:0.4.2@aar'
+    compile 'com.mikhaellopez:circularimageview:3.0.2'
+    compile 'uk.co.chrisjenx:calligraphy:2.2.0'
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+
+    compile 'com.google.android.gms:play-services-gcm:9.2.0'
+
+    compile files('libs/jackson-all-1.9.11.jar')
+    compile files('libs/spring-android-auth-1.0.1.RELEASE.jar')
+    compile files('libs/spring-android-core-1.0.1.RELEASE.jar')
+    compile files('libs/spring-android-rest-template-1.0.1.RELEASE.jar')
+    compile files('libs/universal-image-loader-1.9.5.jar')
+
+    testCompile 'junit:junit:4.12'
+}
+
+apt {
+    arguments {
+        androidManifestFile variant.outputs[0].processResources.manifestFile
+    }
+}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/notice.txt'
+    }
+}

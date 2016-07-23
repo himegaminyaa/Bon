@@ -1,0 +1,57 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="labs.himegami.bon">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".application.BonApplication_"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="labs.himegami.bon.activities.BonLoginActivity_"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="labs.himegami.bon.activities.base.BaseLoginActivity_"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name="labs.himegami.bon.activities.BonMainActivity_"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name="labs.himegami.bon.activities.BonPreLoginScanActivity_"
+            android:theme="@style/AppTheme.Translucent"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name="labs.himegami.bon.activities.BonPostLoginScanActivity_"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name="labs.himegami.bon.activities.BonRegisterActivity_"
+            android:theme="@style/AppTheme.Translucent"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name"/>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
+    </application>
+
+</manifest>

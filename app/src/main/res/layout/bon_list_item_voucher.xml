@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Bon.Voucher.Card"
+    app:cardCornerRadius="@dimen/bon_list_item_default_corner_radius"
+    app:cardElevation="@dimen/bon_list_item_default_elevation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/mPanelLeft"
+            style="@style/Bon.Voucher.Panel.Left">
+
+            <RelativeLayout
+                android:id="@+id/mPromoPanel"
+                style="@style/Bon.Voucher.Panel.Promo">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/mPromo"
+                    style="@style/Bon.Text.Voucher.Promo.Value"/>
+
+            </RelativeLayout>
+            
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mPromoCd"
+                style="@style/Bon.Text.Voucher.Promo.Cd"
+                android:layout_below="@id/mPromoPanel"/>
+
+            <Switch
+                android:id="@+id/mSwitch"
+                style="@style/Bon.Voucher.Switch"/>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/mBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/mPanelLeft"
+            android:layout_toEndOf="@id/mPanelLeft"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            style="@style/Bon.Voucher.Panel.Bottom.Faded"
+            android:layout_toRightOf="@id/mPanelLeft"
+            android:layout_toEndOf="@id/mPanelLeft"
+            android:layout_alignParentBottom="true">
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/mTintSelect"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/mPanelLeft"
+            android:layout_toEndOf="@id/mPanelLeft"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            style="@style/Bon.Voucher.Panel.Bottom"
+            android:layout_toRightOf="@id/mPanelLeft"
+            android:layout_toEndOf="@id/mPanelLeft"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mName"
+                style="@style/Bon.Text.Voucher.Bottom.Name"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mPrice"
+                style="@style/Bon.Text.Voucher.Bottom.Price"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mTimerPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/bon_list_item_voucher_margin_right_timer"
+            android:layout_marginEnd="@dimen/bon_list_item_voucher_margin_right_timer"
+            android:layout_marginBottom="@dimen/bon_list_item_voucher_margin_bottom_timer"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:visibility="gone">
+
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/Bon.Text.Voucher.Timer.Footer"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mCode"
+                style="@style/Bon.Text.Voucher.Timer.Code"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mTimer"
+                style="@style/Bon.Text.Voucher.Timer.Time"/>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/mDisablePanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#AA000000"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

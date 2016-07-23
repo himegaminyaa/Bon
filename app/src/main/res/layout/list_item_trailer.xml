@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mListItemContainer"
+    style="@style/Himegami.Container.ListItem.Header">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mListItemTrailer"
+        style="@style/Himegami.Item.Message"
+        android:text="@string/list_item_trailer_message"/>
+
+</RelativeLayout>

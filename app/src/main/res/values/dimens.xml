@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="hl_drawer_header_height">192dp</dimen>
+    <dimen name="hl_drawer_header_padding">16dp</dimen>
+    <dimen name="hl_drawer_header_profile_size">60dp</dimen>
+    <dimen name="hl_drawer_header_profile_margin">16dp</dimen>
+    <dimen name="hl_drawer_header_text_size_user">14sp</dimen>
+
+    <dimen name="hl_login_margin">32dp</dimen>
+    <dimen name="hl_login_margin_item">8dp</dimen>
+    <dimen name="hl_login_margin_top_button">16dp</dimen>
+    <dimen name="hl_login_button_size">32dp</dimen>
+    <dimen name="hl_login_text_size_button">16sp</dimen>
+
+    <dimen name="hl_list_item_icon_horizontal">48dp</dimen>
+    <dimen name="hl_list_item_icon_vertical">48dp</dimen>
+    <dimen name="hl_list_item_message_margin">8dp</dimen>
+
+    <dimen name="hl_list_item_card_margin">8dp</dimen>
+    <dimen name="hl_list_item_card_margin_horizontal">8dp</dimen>
+    <dimen name="hl_list_item_card_margin_vertical">8dp</dimen>
+
+    <dimen name="hl_list_item_margin_horizontal">16dp</dimen>
+    <dimen name="hl_list_item_margin_vertical">16dp</dimen>
+
+    <dimen name="hl_fab_margin">16dp</dimen>
+    <dimen name="hl_fab_elevation">6dp</dimen>
+
+    <dimen name="bon_action_bar_text_size_title">40sp</dimen>
+
+    <dimen name="bon_list_item_default_corner_radius">8dp</dimen>
+    <dimen name="bon_list_item_default_elevation">4dp</dimen>
+    <dimen name="bon_list_item_default_margin">8dp</dimen>
+
+    <dimen name="bon_list_item_menu_height">192dp</dimen>
+    <dimen name="bon_list_item_menu_header_height">48dp</dimen>
+    <dimen name="bon_list_item_menu_item_height">120dp</dimen>
+    <dimen name="bon_list_item_menu_margin_bottom_name_price">4dp</dimen>
+    <dimen name="bon_list_item_menu_margin_bottom_item">8dp</dimen>
+    <dimen name="bon_list_item_menu_margin_horizontal">8dp</dimen>
+    <dimen name="bon_list_item_menu_margin_vertical">4dp</dimen>
+    <dimen name="bon_list_item_menu_padding">8dp</dimen>
+    <dimen name="bon_list_item_menu_text_size_header">24dp</dimen>
+    <dimen name="bon_list_item_menu_text_size_item_name">16dp</dimen>
+    <dimen name="bon_list_item_menu_text_size_item_price">16dp</dimen>
+    <dimen name="bon_list_item_menu_text_size_item_desc">12dp</dimen>
+
+    <dimen name="bon_list_item_merch_height">96dp</dimen>
+    <dimen name="bon_list_item_merch_margin_horizontal">8dp</dimen>
+    <dimen name="bon_list_item_merch_margin_vertical">4dp</dimen>
+    <dimen name="bon_list_item_merch_padding">8dp</dimen>
+    <dimen name="bon_list_item_merch_icon_size">60dp</dimen>
+    <dimen name="bon_list_item_merch_icon_border_thickness">2dp</dimen>
+    <dimen name="bon_list_item_merch_text_size_desc">12dp</dimen>
+    <dimen name="bon_list_item_merch_text_size_distance">32dp</dimen>
+    <dimen name="bon_list_item_merch_text_size_name">20dp</dimen>
+
+    <dimen name="bon_list_item_voucher_height">192dp</dimen>
+    <dimen name="bon_list_item_voucher_bottom_panel_height">48dp</dimen>
+    <dimen name="bon_list_item_voucher_left_panel_width">84dp</dimen>
+    <dimen name="bon_list_item_voucher_margin_bottom_slider">16dp</dimen>
+    <dimen name="bon_list_item_voucher_margin_bottom_timer">8dp</dimen>
+    <dimen name="bon_list_item_voucher_margin_horizontal">8dp</dimen>
+    <dimen name="bon_list_item_voucher_margin_left_desc">8dp</dimen>
+    <dimen name="bon_list_item_voucher_margin_right_timer">8dp</dimen>
+    <dimen name="bon_list_item_voucher_margin_promo_cd">8dp</dimen>
+    <dimen name="bon_list_item_voucher_margin_top_promo">24dp</dimen>
+    <dimen name="bon_list_item_voucher_margin_vertical">4dp</dimen>
+    <dimen name="bon_list_item_voucher_negative_margin_bottom_timer">-8dp</dimen>
+    <dimen name="bon_list_item_voucher_promo_panel_size">48dp</dimen>
+    <dimen name="bon_list_item_voucher_text_size_name">12sp</dimen>
+    <dimen name="bon_list_item_voucher_text_size_price">16sp</dimen>
+    <dimen name="bon_list_item_voucher_text_size_promo_cd">10sp</dimen>
+    <dimen name="bon_list_item_voucher_text_size_promo_value">20sp</dimen>
+    <dimen name="bon_list_item_voucher_text_size_timer_code">14sp</dimen>
+    <dimen name="bon_list_item_voucher_text_size_timer_header">10sp</dimen>
+    <dimen name="bon_list_item_voucher_text_size_timer_footer">12sp</dimen>
+    <dimen name="bon_list_item_voucher_text_size_timer_time">40sp</dimen>
+
+    <dimen name="bon_login_divider_width">2dp</dimen>
+    <dimen name="bon_login_divider_height">32dp</dimen>
+    <dimen name="bon_login_divider_margin">4dp</dimen>
+    <dimen name="bon_login_register_height">29dp</dimen>
+    <dimen name="bon_login_register_corner_radius">1.5dp</dimen>
+
+    <dimen name="bon_tab_layout_height">60dp</dimen>
+    <dimen name="bon_tab_layout_padding_horizontal">4dp</dimen>
+    <dimen name="bon_tab_text_size">12sp</dimen>
+    <dimen name="bon_tab_icon_size">40dp</dimen>
+
+    <dimen name="bon_fragment_merchant_margin_bottom_info">4dp</dimen>
+
+    <dimen name="bon_fragment_wallet_button_height">48dp</dimen>
+    <dimen name="bon_fragment_wallet_button_width">256dp</dimen>
+    <dimen name="bon_fragment_wallet_margin">16dp</dimen>
+    <dimen name="bon_fragment_wallet_margin_bottom_label">8dp</dimen>
+    <dimen name="bon_fragment_wallet_margin_right_value">8dp</dimen>
+    <dimen name="bon_fragment_wallet_text_size_button">24sp</dimen>
+    <dimen name="bon_fragment_wallet_text_size_label">24sp</dimen>
+    <dimen name="bon_fragment_wallet_text_size_value">44sp</dimen>
+    <dimen name="bon_fragment_wallet_text_size_currency">44sp</dimen>
+    <dimen name="bon_fragment_wallet_currency_size">52dp</dimen>
+
+</resources>

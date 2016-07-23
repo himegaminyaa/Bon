@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Bon.Merch.Card"
+    app:cardCornerRadius="@dimen/bon_list_item_default_corner_radius"
+    app:cardElevation="@dimen/bon_list_item_default_elevation">
+
+    <RelativeLayout
+        style="@style/Bon.Merch.Panel.Main">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/mMerchantIcon"
+            style="@style/Bon.Merch.Icon"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mMerchDistance"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@style/Bon.Text.Merch.Distance"/>
+
+        <LinearLayout
+            android:id="@+id/mMerchantPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/mMerchantIcon"
+            android:layout_toEndOf="@id/mMerchantIcon"
+            android:layout_toLeftOf="@id/mMerchDistance"
+            android:layout_toStartOf="@id/mMerchDistance"
+            android:padding="@dimen/bon_list_item_merch_padding"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mMerchDesc"
+                style="@style/Bon.Text.Merch.Name"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mMerchName"
+                style="@style/Bon.Text.Merch.Desc"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/mMerchGreeting"
+                style="@style/Bon.Text.Merch.Desc"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
